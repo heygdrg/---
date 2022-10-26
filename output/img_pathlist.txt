@@ -1,0 +1,62 @@
+
+
+c://Program Files (x86)/Epic Games/Launcher/Engine/Content/Slate/Icons/Edit/icon_Edit_Delete_16x.png
+c://Program Files/WindowsApps/Microsoft.XboxIdentityProvider_12.93.6001.0_x64__8wekyb3d8bbwe/Assets/Xbox_2020_horz_Wht_RGB.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2021.12.24-15.51.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2021.12.29-21.27.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.21-21.08.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.21-21.09.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.27.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.27_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.28.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.28_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.28_2.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.29.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/unknown_2021.12.24-15.51.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.29_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/unknown_2021.12.29-21.27.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.29_2.png.jpg
+c://Program Files/Epic Games/Borderlands3/OakGame/Content/UX/experience/img/_img_border_line.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.30.png.jpg
+c://Program Files/Epic Games/Borderlands3/OakGame/Content/UX/experience/img/_img_window_menu_small.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/unknown_2022.02.21-21.07.png
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.30_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.30_2.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.31.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.31_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.31_2.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.32.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.32_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.02.22-08.32_2.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.03.17-11.22.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.03.17-11.22_1.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.03.17-11.22_4.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.03.19-12.40.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.03.22-20.27.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.04.09-21.51.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.05.23-15.43.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.05.23-15.45.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.07.05-15.53.png.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.08.29-09.04.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.08.30-12.16.mp4.jpg
+c://Users/zanat/Videos/Radeon ReLive/unknown/thumb_cache/unknown_2022.08.30-14.38.mp4.jpg
+c://Program Files (x86)/Epic Games/Epic Online Services/Engine/Content/Slate/Icons/Edit/icon_Edit_Delete_16x.png
+c://Program Files (x86)/Steam/steamui/images/img_welcometolibrary_bg.jpg
+c://Program Files (x86)/Epic Games/Launcher/Portal/SysFiles/Twinmotion2020_Community.png
+c://ProgramData/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Community.png
+c://Users/All Users/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Community.png
+c://Windows.old/Users/All Users/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Community.png
+c://Program Files (x86)/Steam/controller_base/images/api/light/switchpro_button_capture_lg.png
+c://Program Files (x86)/Steam/controller_base/images/api/light/switchpro_button_capture_md.png
+c://Program Files (x86)/Steam/controller_base/images/api/light/switchpro_button_capture_sm.png
+c://Program Files (x86)/Steam/controller_base/images/api/knockout/switchpro_button_capture_lg.png
+c://Program Files (x86)/Steam/controller_base/images/api/knockout/switchpro_button_capture_md.png
+c://Program Files (x86)/Steam/controller_base/images/api/knockout/switchpro_button_capture_sm.png
+c://Program Files (x86)/Steam/controller_base/images/api/dark/switchpro_button_capture_lg.png
+c://Program Files (x86)/Steam/controller_base/images/api/dark/switchpro_button_capture_md.png
+c://Program Files (x86)/Steam/controller_base/images/api/dark/switchpro_button_capture_sm.png
+c://ProgramData/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Education.png
+c://Program Files (x86)/Epic Games/Launcher/Portal/SysFiles/Twinmotion2020_Education.png
+c://Users/All Users/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Education.png
+c://Windows.old/Users/All Users/Epic/EpicGamesLauncher/Data/EMS/EpicGamesLauncher/Twinmotion2020_Education.png
+c://Program Files (x86)/Epic Games/Launcher/Portal/SysFiles/Twinmotion2020_Header.png

